@@ -1,0 +1,4 @@
+var todos = ["item 1", "item 2", "item 3"];
+todos.splice(0,2);
+todos.push("pushed item");
+console.log(todos);
